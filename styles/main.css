@@ -170,6 +170,41 @@ body {
   margin-top: auto;
 }
 
+/* collection section */
+
+.collections-section {
+}
+
+.title-discription {
+  font-family: var(--second-font);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.33;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--main-light-color);
+}
+
+.title-under-line {
+  width: 120px;
+  height: 0px;
+  border: 1px solid var(--main-light-color);
+}
+.watch-card {
+}
+
+.collection-img {
+}
+.collection-img-title {
+}
+
+.collection-img2 {
+}
+.collection-img-title2 {
+}
+.collection-img-text {
+}
+
 /* font-face */
 
 @font-face {
