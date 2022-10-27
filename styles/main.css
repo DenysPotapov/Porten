@@ -330,6 +330,7 @@ body {
 }
 
 .article-section-news {
+  margin-top: 35px;
 }
 .article-img {
   width: 989px;
@@ -338,7 +339,9 @@ body {
 .article-news {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   align-items: center;
+  height: 100%;
 }
 .article-news-title {
   font-size: 18px;
@@ -348,15 +351,18 @@ body {
 }
 .article-news-text {
   line-height: 1.5;
-  /* width: 628px; */
+  width: 628px;
 }
 .article-news-botton {
   display: flex;
+  justify-content: space-between;
   align-items: flex-end;
-  justify-self: end;
-  align-content: space-between;
+  height: 100%;
 }
 
+.article-news-botton .btn-article {
+  display: block;
+}
 .heshtag {
   font-size: 18px;
   line-height: 1.28;
