@@ -33,6 +33,10 @@ body {
   color: inherit;
 }
 
+img {
+  transition: transform 0.25s;
+}
+
 /* header */
 .header {
 }
@@ -175,6 +179,10 @@ body {
 .collections-section {
 }
 
+.title-row {
+  height: 232px;
+}
+
 .title-discription {
   font-family: var(--second-font);
   font-weight: 700;
@@ -189,13 +197,61 @@ body {
   width: 120px;
   height: 0px;
   border: 1px solid var(--main-light-color);
+  margin: 50px auto;
 }
+
+.watch-card-row {
+  width: 1040px;
+}
+
 .watch-card {
 }
 
+.watch-card-product {
+  width: 260px;
+  height: 405px;
+}
+
+.watch-card-img {
+  align-self: center;
+  width: 260px;
+  height: 325px;
+  background: #191b1c;
+  margin-bottom: 25px;
+  overflow: hidden;
+}
+
+.watch-card-product:hover img {
+  transform: scale(1.1);
+}
+
+.watch-card-discription {
+}
+
+.watch-card-name {
+  font-family: var(--second-font);
+  font-size: 18px;
+  line-height: 1.33;
+  color: var(--main-light-color);
+}
+
+.wath-card-price {
+  font-family: var(--second-font);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.31;
+  color: var(--light-gray-color);
+}
+
 .collection-img {
+  position: relative;
+  width: 880px;
+  height: 730px;
 }
 .collection-img-title {
+  position: absolute;
+  right: 252px;
+  top: 484px;
 }
 
 .collection-img2 {
