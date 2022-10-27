@@ -33,6 +33,28 @@ body {
   color: inherit;
 }
 
+.btn-trans {
+  background: transparent;
+  border: 1px solid var(--main-light-color);
+  outline: none;
+  color: var(--main-light-color);
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 1.27;
+  text-align: center;
+  letter-spacing: 0.1em;
+  padding: 12px 28px;
+  margin: 0 auto;
+  display: block;
+}
+
+.btn-trans:hover {
+  transition: 1s ease-in-out;
+  background: var(--light-gray-color);
+  color: var(--main-dark-color);
+  font-weight: 700;
+}
+
 img {
   transition: transform 0.25s;
 }
@@ -197,7 +219,7 @@ img {
   width: 120px;
   height: 0px;
   border: 1px solid var(--main-light-color);
-  margin: 50px auto;
+  margin: 30px auto;
 }
 
 .watch-card-row {
@@ -255,10 +277,21 @@ img {
 }
 
 .collection-img2 {
+  width: 936px;
+  height: 600px;
 }
 .collection-img-title2 {
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: center;
 }
 .collection-img-text {
+  width: 628px;
+  line-height: 1.5;
+  text-align: center;
+  align-self: center;
 }
 
 /* font-face */
