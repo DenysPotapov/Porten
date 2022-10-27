@@ -55,10 +55,6 @@ body {
   font-weight: 700;
 }
 
-img {
-  transition: transform 0.25s;
-}
-
 /* header */
 .header {
 }
@@ -292,6 +288,39 @@ img {
   line-height: 1.5;
   text-align: center;
   align-self: center;
+}
+
+/* new items section */
+
+.new-items-title-row {
+  height: 276px;
+}
+
+.new-items-watch-row {
+  height: 425px;
+}
+
+.col-lg-3 {
+}
+
+.new-items-footer-row {
+  height: 163px;
+}
+
+.watch-card-in {
+  position: relative;
+  width: 50%;
+}
+
+.watch-card-in img {
+  background: rgba(25, 27, 28, 0.5);
+  filter: blur(1.5px);
+}
+
+.watch-card-in .btn-trans-in {
+  position: absolute;
+  top: 135px;
+  left: 37px;
 }
 
 /* font-face */
