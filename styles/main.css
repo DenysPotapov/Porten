@@ -325,6 +325,10 @@ body {
 
 /* article-news-section */
 
+.article-section {
+  background-color: var(--second-dark-color);
+}
+
 .article-section-row {
   height: 205px;
 }
@@ -360,15 +364,96 @@ body {
   height: 100%;
 }
 
-.article-news-botton .btn-article {
-  display: block;
-}
 .heshtag {
   font-size: 18px;
   line-height: 1.28;
   text-align: right;
   letter-spacing: 0.1em;
   text-transform: uppercase;
+}
+
+/* partners */
+
+.partners {
+  background-color: var(--second-dark-color);
+  height: 541px;
+}
+
+.partners-row {
+  height: 250px;
+}
+
+.partners-logo {
+}
+
+.partners-item {
+}
+
+.partners-img {
+}
+
+/* footer */
+
+.footer {
+  background-image: url(../images/img/man-rec3.png);
+  background-repeat: no-repeat;
+}
+
+.footer-row {
+  height: 450px;
+}
+
+.footer-about-company {
+}
+
+.footer-title {
+  ont-size: 24px;
+  line-height: 1.33;
+  text-transform: uppercase;
+  margin: 80px auto 40px;
+}
+
+.footer-text {
+  line-height: 1.5;
+  width: 350px;
+}
+
+.footer-category {
+}
+
+.footer-link {
+  padding: 10px 20px;
+  background: var(--second-dark-color);
+}
+
+.footer-text-link {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.input-group {
+  margin-top: 26px;
+}
+
+.footer-form {
+  width: 210px;
+  height: 42px;
+  background: rgba(255, 255, 255, 0.4);
+  color: var(--main-light-color);
+}
+
+.btn-mail {
+  padding: 10px 20px;
+  background: var(--second-dark-color);
+  color: var(--main-light-color);
+}
+
+.copy-right {
+}
+
+.footer-row-bottom {
+  height: 50px;
 }
 
 /* font-face */
