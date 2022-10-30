@@ -28,6 +28,10 @@ body {
 }
 
 /* common styles */
+.container {
+  max-width: 1110px;
+}
+
 .link {
   text-decoration: none;
   color: inherit;
@@ -274,6 +278,7 @@ body {
 .collection-img2 {
   max-width: 936px;
 }
+
 .collection-img-title2 {
   height: 600px;
   display: flex;
