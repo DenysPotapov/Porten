@@ -219,10 +219,10 @@ body {
 }
 
 .watch-card-row {
-  width: 1040px;
 }
 
 .watch-card {
+  max-width: 1040px;
 }
 
 .watch-card-product {
@@ -264,6 +264,7 @@ body {
   position: relative;
   max-width: 880px;
 }
+
 .collection-img-title {
   position: absolute;
   right: 252px;
