@@ -226,14 +226,13 @@ body {
 }
 
 .watch-card-product {
-  width: 260px;
-  height: 405px;
+  max-width: 260px;
+  max-height: 405px;
 }
 
 .watch-card-img {
   align-self: center;
-  width: 260px;
-  height: 325px;
+  max-width: 215px;
   background: #191b1c;
   margin-bottom: 25px;
   overflow: hidden;
@@ -263,8 +262,7 @@ body {
 
 .collection-img {
   position: relative;
-  width: 880px;
-  height: 730px;
+  max-width: 880px;
 }
 .collection-img-title {
   position: absolute;
@@ -273,8 +271,7 @@ body {
 }
 
 .collection-img2 {
-  width: 936px;
-  height: 600px;
+  max-width: 936px;
 }
 .collection-img-title2 {
   height: 600px;
@@ -337,8 +334,7 @@ body {
   margin-top: 35px;
 }
 .article-img {
-  width: 989px;
-  height: 437px;
+  max-width: 989px;
 }
 .article-news {
   display: flex;
