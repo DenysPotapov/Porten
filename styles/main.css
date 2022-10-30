@@ -146,7 +146,7 @@ body {
 /* hero-section */
 
 .hero-section {
-  height: 810px;
+  max-height: 810px;
 }
 
 .hero-rectange {
@@ -184,6 +184,24 @@ body {
   color: var(--main-light-color);
 }
 
+@media (max-width: 1520px) {
+  .hero-rectange {
+    width: 220px;
+    height: 220px;
+    left: calc(50% - 110px);
+    top: 220px;
+  }
+  .hero-logo-h1 {
+    font-size: 42px;
+    margin: 58px auto 3px;
+    width: 120px;
+    height: 54px;
+  }
+  .hero-logo-undersigna {
+    font-size: 18px;
+  }
+}
+
 .image-caption {
   font-size: 16px;
   line-height: 1.5;
@@ -202,7 +220,7 @@ body {
 }
 
 .title-row {
-  height: 232px;
+  max-height: 232px;
 }
 
 .title-discription {
@@ -213,6 +231,13 @@ body {
   text-align: center;
   text-transform: uppercase;
   color: var(--main-light-color);
+  margin-top: 100px;
+}
+
+@media (max-width: 1768px) {
+  .title-discription {
+    margin-top: 50px;
+  }
 }
 
 .title-under-line {
@@ -272,7 +297,15 @@ body {
 .collection-img-title {
   position: absolute;
   right: 252px;
-  top: 484px;
+  top: 384px;
+}
+
+@media (max-width: 1520px) {
+  .collection-img-title {
+    position: absolute;
+    right: 210px;
+    top: 290px;
+  }
 }
 
 .collection-img2 {
@@ -280,7 +313,7 @@ body {
 }
 
 .collection-img-title2 {
-  height: 600px;
+  max-height: 600px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -291,17 +324,18 @@ body {
   line-height: 1.5;
   text-align: center;
   align-self: center;
+  margin-bottom: 68px;
 }
 
 /* new items section */
 
 .new-items-title-row {
-  height: 276px;
+  max-height: 276px;
 }
 
-.new-items-watch-row {
+/* .new-items-watch-row {
   height: 425px;
-}
+} */
 
 .col-lg-3 {
 }
@@ -333,7 +367,7 @@ body {
 }
 
 .article-section-row {
-  height: 205px;
+  max-height: 205px;
 }
 
 .article-section-news {
@@ -357,7 +391,7 @@ body {
 }
 .article-news-text {
   line-height: 1.5;
-  width: 628px;
+  max-width: 628px;
 }
 .article-news-botton {
   display: flex;
@@ -378,11 +412,11 @@ body {
 
 .partners {
   background-color: var(--second-dark-color);
-  height: 541px;
+  max-height: 541px;
 }
 
 .partners-row {
-  height: 250px;
+  max-height: 250px;
 }
 
 .partners-logo {
@@ -392,6 +426,7 @@ body {
 }
 
 .partners-img {
+  margin-bottom: 100px;
 }
 
 /* footer */
@@ -409,7 +444,7 @@ body {
 }
 
 .footer-title {
-  ont-size: 24px;
+  font-size: 24px;
   line-height: 1.33;
   text-transform: uppercase;
   margin: 80px auto 40px;
@@ -417,7 +452,7 @@ body {
 
 .footer-text {
   line-height: 1.5;
-  width: 350px;
+  max-width: 350px;
 }
 
 .footer-category {
